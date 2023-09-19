@@ -1,0 +1,95 @@
+/*FOOTER - FEEDBACK*/
+
+.feedback {
+  position: relative;
+  background: url(../Img/fundo_footer.svg) no-repeat center center ; /* Center the background image and make it cover the entire element */
+  background-size: cover;
+  width: 100%;
+  height: 100vh; /* Instead of 'height', use 'min-height' to ensure the footer expands with content */
+}
+  
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .area_sugestao {
+    margin-top: 3.125rem;
+    position: relative;
+    left: 11rem;
+  }
+  
+  .area_sugestao h1 {
+    font-size: 5rem;
+    margin-bottom: 3rem;
+  }
+  
+  .area_sugestao p {
+    margin-bottom: 2rem;
+    width: 48rem;
+  }
+  
+  .mensagem {
+    width: 19.375rem;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    transform: translate(0px,0px);
+    box-shadow: 5px 5px #272F5D;
+  }
+  
+  .input {
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    width: 15.625rem;
+    height: 1.875rem;
+    transform: translate(5px,-5px);
+    color: #272F5D;
+    padding: 10px;
+  }
+  
+  .mensagem img{
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    padding: 1px;
+    border-radius: 5px;
+    width: 1.5rem;
+    cursor: pointer;
+    
+  }
+  
+  .mensagem img:hover{
+    opacity: 0.5;
+  }
+
+  
+  .astronauta_footer img {
+    margin-top: 5rem;
+    width: 40rem;
+    position: relative;
+    margin: 0;
+  }
+
+  @media (max-width:1440px){
+    .astronauta_footer img {
+      margin-top: 5rem;
+      width: 35rem;
+      position: relative;
+      margin: 0;
+      right: 8%;
+    }
+  }
+
+  @media (min-width:1110px){
+    .feedback {
+      position: relative;
+      background: url(../Img/fundo_footer.svg) no-repeat center center ; /* Center the background image and make it cover the entire element */
+      background-size: cover;
+      width: 100%;
+      height: 100vh; 
+    }    
+  }

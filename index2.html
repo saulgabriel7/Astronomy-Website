@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+    <script src="slider.js" defer></script>
+    <script src="popup.js" defer></script>
+    <script src="main.js" defer></script>
+    <title>Atronomy Website </title>
+</head>
+<body>
+   
+    <header>
+        <div class="menu" id="menu">
+            <div class="logo">                    
+                <img src="./img/logo.svg" alt="">
+            </div>
+
+            <ul class="nav">
+                <li> <a href="#descobrir">Descobir Mais</a> </li>
+                <li> <a href="#universo">Universo</a> </li>
+                <li> <a href="./Minha IA/astro.html">Astro Mind</a> </li>
+                <li> <a href="./Pagina de Games/games.html">Jogos</a> </li>
+                <button class="perfil">Perfil <img class="img_perfil" src="" alt=""></button>
+            </ul>
+        </div>
+
+        <div class="titulo">
+            <h1>Explorando os Céus, <br>
+                Descobrindo o Universo!
+            </h1>
+
+            <div class="seta">
+                <a href="#dest"><img src="./Img/arrow-down.png" alt=""></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+      <!--Login-->
+
+      <a href="#" id="login"></a>
+
+      <div id="popup-login">
+          <div class="login-content">
+              <a href="#" id="close-login"> <img src="./Img/close.svg" alt=""></a>
+              <img src="./Img/logo.png" alt="">
+              <div class="input-login">
+                  <input placeholder="E-mail" type="text" id="email">
+              </div>    
+              <div class="input-login">
+                  <input placeholder="Password" type="password" id="senha">
+              </div>
+              <button>ENTRAR</button>
+              <p>Não fez login ainda? <a href="">Registre-se</a></p>
+          </div>
+      </div>
+  
+
+      <!-- particles.js container --> 
+
+      <div id="particles-js"></div> 
+    
+
+      <a class="top" href="#menu"> <img src="./Img/arrow.svg" alt=""></a>
+
+        <div class="dest" id="dest">
+            <h1>Destaques</h1>
+        </div>
+        
+        <div class="destaques">
+           
+            <div class="carrossel">
+                <img src="./Img/1.jpeg" alt="Imagem 1">
+                <img src="./Img/2.jpeg" alt="Imagem 2">
+                <img src="./Img/3.jpeg" alt="Imagem 3">
+            </div>
+            
+            <div class="container">
+                <img src="./Img/Astro Mind.jpg" alt="">
+                <p>Astro Mind</p>
+            </div>
+        </div>
+       
+          
+        <!-- Afinal, oq é a astronomia -->
+        
+        <section class="intro">
+            <div class="line">
+                <div class="circle"><p>1</p></div>
+                <div class="circle"><p>2</p></div>
+                <div class="circle"><p>3</p></div>
+            </div>
+            <!-- div 1 -->
+            <div class="first">
+                <h2>Afinal, o que é Astronomia?</h2>
+                <p>A astronomia é a ciência que estuda os corpos celestes e os fenômenos que <br> ocorrem no universo. Ela nos ajuda a entender a origem e evolução do cosmos.</p>
+                <div class="video">
+                    <video class="video" autoplay controls>
+                        <source src="./video/0222.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+
+            <!-- div 2 -->
+            <div class="second">
+                <h2>Importância da Astronomia</h2>
+                <p>A astronomia nos permite responder a grandes questões: onde estamos, de onde viemos e para onde vamos. E o saciar da curiosidade inerente à espécie humana de entender o Universo produz também conhecimento básico para a descoberta de tecnologias e serviços essenciais em nosso dia a dia.</p>
+                <div class="img">
+                    <img src="./Img/lua (2).png" alt="">
+                </div>
+            </div>
+
+            <!-- div3 -->
+            <div class="third">
+                <h2>Qual a Importância da <br> Tecnologia na Astronomia?</h2>
+                <p>Astronomia é uma área em constante evolução, que requer instrumentos poderosos para observar locais jamais vistos antes e entender a evolução do universo. Além de telescópios que capturam diferentes partes do espectro eletromagnético, a inteligência artificial e outros recursos tecnológicos são cada vez mais utilizados para expandir os limites da astronomia e da ciência espacial.</p>
+                <div class="img">
+                    <img src="./Img/astronauta.svg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- Universo -->
+        
+        
+        <div class="slider">
+
+            <div class="universo" id="universo">
+                <h1>Universo</h1>
+            </div>
+
+              <div class="slider-container">
+
+                <div class="univers">
+                  <div class="text">
+                    <h2>Sistemas</h2>
+                    <div class="image">
+                      <img src="./Img/sistemas.svg" alt="">
+                    </div>
+                    <p>Sistemas de estrelas são compostos por duas ou mais estrelas orbitando um centro comum. O Sistema Solar é um exemplo de sistema estelar com oito planetas orbitando o Sol.</p>
+                  </div>
+                </div>
+            
+                <div class="univers">
+                  <div class="satel">
+                    <h2>Satélites</h2>
+                    <div class="image">
+                      <img src="./Img/satelite.svg" alt="">
+                    </div>
+                    <p>Satélites naturais são corpos celestes que orbitam planetas. A Lua é o maior e mais conhecido satélite natural da Terra. Ela é responsável por marés, tempos de plantio, e serve de inspiração para artistas e poetas.</p>
+                  </div>
+                </div>
+            
+                <div class="univers">
+                  <div class="galax">
+                    <h2>Galáxias</h2>
+                    <div class="image">
+                      <img src="./Img/galaxias.svg" alt="">
+                    </div>
+                    <p>Galáxias são sistemas enormes de estrelas, planetas e outros objetos celestes mantidos juntos por sua gravidade. A Via Láctea é nossa galáxia, contendo cerca de 400 bilhões de estrelas.</p>
+                  </div>
+                </div>
+            
+                <div class="univers">
+                  <div class="plan">
+                    <h2>Planetas</h2>
+                    <div class="image">
+                      <img src="./Img/planeta.png" alt="">
+                    </div>
+                    <p>Os planetas são corpos celestes que orbitam em torno de estrelas. Eles variam em tamanho, composição e características, e são classificados em diferentes tipos, como planetas rochosos, planetas gasosos e planetas anões.</p>
+                  </div>
+                </div>
+            
+                <div class="univers">
+                  <div class="exo">
+                    <h2>Exoplanetas</h2>
+                    <div class="image">
+                      <img src="./Img/exoplaneta.png" alt="">
+                    </div>
+                    <p>Os exoplanetas são planetas que orbitam estrelas além do nosso sistema solar. Sua descoberta revolucionou nossa compreensão do cosmos e despertou um grande interesse na busca por vida extraterrestre.</p>
+                  </div>
+                </div>
+            
+                <div class="univers">
+                  <div class="negro">
+                    <h2>Buracos negros</h2>
+                    <div class="image">
+                      <img src="./Img/buraconegro.png" alt="">
+                    </div>
+                    <p>Os buracos negros são regiões do espaço-tempo com uma enorme densidade, onde a gravidade é tão intensa que nada, nem mesmo a luz, pode escapar de sua atração.</p>
+                  </div>
+                </div>
+  
+              </div>
+
+            <div class="slider-controls">
+                <button class="prev-button"><img src="./Img/caret-left-light.png" alt=""></button>
+                <button class="next-button"><img src="./Img/caret-right-light.png" alt=""></button>
+            </div>
+
+        </div>
+          
+        <!-- Descobrir mais -->
+        <div class="descobrir" id="descobrir">
+          <div class="descob">
+            <h1>Descobrir Mais</h1>
+          </div>
+          <div class="texto">
+            <p>Entendemos que o seu tempo é valioso, e queremos tornar a navegação em nosso site o mais fácil e eficiente possível. Esperamos que você goste da nossa divisão de conteúdo em páginas separadas tornando a navegação mais rápida e agradável.</p>
+          </div>
+          <div class="fotos">
+            <a href="#popup-galaxia" id="popup-galax"><img src="./Img/galax.jpg" alt=""></a>
+            <a href="#popup-lua" id="popup-pé"><img src="./Img/pé.jpg" alt=""></a>
+            <a href="#popup-web" id="popup-james"><img src="./Img/weeb.jpg" alt=""></a>
+          </div>
+        </div>
+
+        <!--POP-UP-->
+
+        <a href="#" id="popup-galaxia"></a>
+        <a href="#" id="popup-lua"></a>
+        <a href="#" id="popup-web"></a>
+
+
+        <div id="popup">
+          <div class="popup-content">
+            <h2>Descobertas</h2>
+            <img src="./Img/galax.jpg" alt="">
+            <p>A astronomia é uma ciência fascinante que tem sido estudada por muitos anos e tem feito importantes descobertas sobre o universo. Desde a ideia de que a Terra é redonda até a descoberta do universo em expansão e a existência de buracos negros, a astronomia tem ampliado nossa compreensão do universo e do nosso lugar nele. Nesta página, vamos explorar algumas dessas descobertas científicas e como elas impactam nossa compreensão do universo.</p>
+            <img id="close-btn"  src="./Img/close.svg" alt="">
+          </div>
+        </div>
+
+        <div id="popup-exploraçao" >
+          <div class="popup-content">
+            <h2>Explorações</h2>
+            <img src="./Img/pé.jpg" alt="">
+            <p>A astronomia é uma ciência fascinante que tem sido objeto de exploração há séculos. Desde o primeiro telescópio de Galileu, os avanços tecnológicos permitiram aos astrônomos estudar o universo com cada vez mais detalhes. Através de telescópios terrestres e espaciais, satélites e sondas, a astronomia nos permitiu mapear o universo visível, estudar a evolução das estrelas e das galáxias, explorar exoplanetas e procurar vida em outras partes do universo.</p>
+            <img id="close-btn-pé" src="./Img/close.svg" alt="">
+          </div>
+        </div>
+        
+        <div id="popup-weeb">
+          <div class="popup-content">
+            <h2>Tecnologia</h2>
+            <img src="./Img/weeb.jpg" alt="">
+            <p>A tecnologia tem sido crucial para a astronomia, permitindo-nos observar o universo em detalhes sem precedentes. O Telescópio Espacial Hubble e o Telescópio Espacial James Webb são fundamentais na detecção de galáxias distantes e exoplanetas. O Carro Espacial foi importante para o lançamento e manutenção de satélites e construção da Estação Espacial Internacional. Esses avanços tecnológicos têm permitido descobertas impressionantes sobre o universo.</p>
+            <img id="close-btn-weeb" src="./Img/close.svg" alt="">
+          </div>
+        </div>
+
+        <!-- Um pouco sobre nós -->
+
+        <section class="sobre_nos">
+            <div class="apresentacao">
+              <div class="textos">
+                <h1>Um pouco <br> Sobre  Nós</h1>
+                <p>Somos uma equipe formada por 6 pessoas (Saul, Mariana Silva, Ketlyn, Esther, Nicole e Guilherme Alves), temos algumas metas como Desenvolver Habilidades e Competências, Alcançar a Excelência na Qualidade, Fomentar o crescimento pessoal e profissional.</p>
+              </div>
+              
+              <div class="img_sobre">
+                <img src="./Img/sobre_nos.svg" alt="">
+              </div>
+            </div>
+
+            <div class="missao">
+              <p>Temos o objetivo de desenvolver um site de astronomia que otimize os estudos e o interesse dos usuários pelo campo da astronomia, fornecendo informações precisas, recursos educacionais interativos e uma comunidade engajada.</p>
+            </div>
+
+        </section>    
+    </main>
+
+    <!-- Feedback -->
+
+    <footer class="feedback">
+      <div class="footer">
+        <div class="area_sugestao">
+          <h1>Feedback</h1>
+          <p>Gostaríamos de agradecer sua visita em nosso site e esperamos que tenha gostado do conteúdo! Estamos sempre procurando maneiras de melhorar a experiência do usuário e fornecer informações precisas sobre o universo. Nesse sentido, queremos ouvir sua opinião sincera sobre sua experiência em nosso site, sua contribuição é valiosa para nós!</p>
+          <div class="mensagem">
+            <input id="enviar" title="Eviar Mensagem" placeholder="Enviar Sugestão..." class="input" type="text">
+            <button onclick="mostrar()"> 
+              <img src="./Img/paper-plane-right-blue.png" alt="" > 
+            </button>
+          </div>
+        </div>
+
+        <div class="astronauta_footer">
+          <img src="./Img/footer_astronauta.svg" alt="">
+        </div>
+      </div>
+    </footer>
+</body>
+</html>

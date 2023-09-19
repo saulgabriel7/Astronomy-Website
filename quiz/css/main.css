@@ -1,0 +1,40 @@
+.questao{
+    width: 100%;
+    height: 600px;
+    padding: 50px;
+    color: #FFFFFF;
+    background-color: #000;
+    border-radius: 50px;
+    margin-block: 50px;
+}
+  
+  .questao img{
+    width: 300px;
+    height: 300px;
+    margin-top: -80px;
+}
+  
+  .options {
+    list-style-type: none;
+    margin-top: -180px;
+}
+  
+  .options li {
+    margin-bottom: 5px;
+    margin-left: 250px;
+    
+}
+  
+  .options input[type="radio"] {
+    margin-right: 5px;
+}
+  
+  .resultado {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+  
+  
+
+  

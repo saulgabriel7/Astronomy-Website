@@ -1,0 +1,62 @@
+main {
+    display: flex;
+    background: #000;
+    color: #fff;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.configs {
+    display: flex;
+    flex-direction: column;
+    margin-inline: 4rem;
+    gap: 1.2rem;
+}
+
+.configs h3 {
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+.idioma, 
+.salvar,
+.qualidade,
+.brilho,
+.redes {
+    display: flex;
+    width: 60rem;
+    justify-content: space-between;
+}
+
+.amigos {
+    margin-inline: 4rem;
+}
+
+/* armazenamento */
+
+
+.title h3,
+.privacidade h3 {
+    font-size: 1.2rem;
+    padding-block: 1rem;
+}
+
+.cache,
+.local {
+    display: flex;
+    width: 50rem;
+    justify-content: space-between;
+}
+
+.cache {
+    margin-bottom: 1.2rem;
+}
+
+/* privacidade */
+
+.senha p {
+    margin-bottom: 1.2rem;
+}
+

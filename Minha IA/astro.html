@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>IA de Astronomia</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js" defer></script>
+</head>
+<body>
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Astro Mind</title>
+	</head>
+	<body>
+		<div class="fechar">
+			<a href="../Pagina de Games/games.html"><img src="./img/fechar.svg" alt="Close"></a>
+		</div>
+	
+		<div class="menu">
+			<img src="./img/logo.svg" alt="">
+			<div class="perguntas">
+				<img src="./img/sugeridas.svg" alt="">
+				<h3>Perguntas Sugeridas:</h3>
+				<p class="paragrafos" style="cursor: pointer" onclick="preencherInput('Qual a distância da Terra até a Lua?')"> 1. Qual a distância da Terra <br> até a Lua?</p>
+				<p class="paragrafos" style="cursor: pointer;" onclick="preencherInput('O que é uma estrela de nêutrons?')"> 2. O que é uma estrela de <br> nêutrons?</p>
+				<p class="paragrafos" style="cursor: pointer;" onclick="preencherInput('O que é um buraco negro?')"> 3. O que é um buraco negro?</p>
+			</div>
+	
+			<div class="sugestao">
+				<p class="paragrafos">
+					<img src="./img/engre.svg" alt="">
+					Use comandos simples, como "O que é uma estrela?"  para obter respostas rápidas 
+				</p>
+				<p class="paragrafos">
+					<img src="./img/lampada.svg" alt="">
+					Se você quiser saber mais sobre um objeto  específico, pergunte "Me fala sobre [...]".
+				</p>
+				<nav class="nav">
+					<a href=""> <img src="./img/mais.svg" alt=""> Nova Pergunta </a>
+				</nav>
+			</div>
+		</div>
+		
+		<h1>Astro Mind</h1>
+		
+		<main>
+			<form id="pergunta-form" style="display: flex; align-items: center;">
+				<div class="input-container">
+					<input type="text" id="pergunta" name="pergunta" placeholder="Faça uma Pergunta..." required style="flex: 1;">
+					<button class="enviar" type="submit"> 
+					  <img src="./Img/paper-plane-right.png" alt="" > 
+					</button>
+				  </div>  
+			</form>
+			<div id="resposta"></div>
+		</main>
+	
+		<script>
+			function preencherInput(texto) {
+				document.getElementById("pergunta").value = texto;
+			}
+		</script>
+	</body>
+	</html>
+	
+</body>
+</html>
+

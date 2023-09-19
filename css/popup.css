@@ -1,0 +1,94 @@
+#popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: -25rem;
+  transform: translate(-50%, -50%);
+  background-size: 50% 50%;
+  z-index: 9999;
+  transition: left 0.3s ease;
+  border-radius: 25px;
+}
+
+#close-btn {
+  position: absolute;
+  width: 2rem;
+  height: auto;
+  cursor: pointer;
+  top: 2px; /* Define a distância do topo */
+  right: 1.25rem; /* Define a distância da direita */
+}
+
+
+.popup-content {
+  background:radial-gradient(100% 279.77% at 0% 0.95%, #0F0B5F 0%, #000000 23.97%, #000000 77.76%, #0F0B5F 93.14%); 
+  height: 31.25rem;
+  padding: 1rem;
+  border-radius: 25px;
+}
+
+.popup-content p{
+  font-size: 16px;
+  text-align: center;
+  margin-left: 17.5rem;
+  margin-top: -16.25rem;
+  margin-right: 1rem;
+}
+
+.popup-content h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content img{
+  width: 14.37rem;
+  height: 18.75rem;
+  border-radius: 25px;
+  margin-top: 1.875rem;
+  margin-left: 1rem;
+}
+
+
+#popup-exploraçao{
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: -25rem;
+  transform: translate(-50% , -50%);
+  background-size: 50% 50%;
+  z-index: 9999;
+  transition: left 0.3s ease;
+  border-radius: 25px;
+}
+
+#close-btn-pé{
+  position: absolute;
+  width: 2rem;
+  height: auto;
+  cursor: pointer;
+  top: 2px; 
+  right: 20px; 
+}
+
+#popup-weeb{
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: -25rem;
+  transform: translate(-50% , -50%);
+  background-size: 50% 50%;
+  z-index: 9999;
+  transition: left 0.3s ease;
+  border-radius: 25px;
+}
+
+#close-btn-weeb{
+  position: absolute;
+  width: 2rem;
+  height: auto;
+  cursor: pointer;
+  top: 2px; 
+  right: 20px; 
+}
+

@@ -1,0 +1,421 @@
+.carrossel {
+  position: relative;
+  width: 40rem; 
+  height: 20rem;
+  overflow: hidden;
+}
+  
+.carrossel img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  border-radius: 1.5625rem;
+  transition: opacity 0.5s ease-in-out;
+}
+  
+.carrossel img.active {
+  opacity: 1;
+}
+
+.dest h1{
+  font-size: 4rem;
+  margin-top: 1.5625rem;
+  margin-bottom: 3.125rem;
+  margin-left: 8.5rem;
+  position: relative;
+}
+
+.destaques{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-block: 6rem;
+}
+
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30rem;
+  height: 20rem;
+  background-color: #080e30;
+  border-radius: 1rem;
+}
+
+.container p {
+  margin-top: 1rem;
+  font-size: 2rem;
+  color: #fff; 
+  font-weight: 600;
+  font-family: 'Archivo', sans-serif;
+
+}
+
+.container img {
+  position: relative;
+  width: 14rem;
+  height: auto;
+  border-radius: 1rem;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video video {
+  width: 50rem;
+}
+
+/* Introdução */
+
+.line {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  height: 100rem;
+  background-color: #fff;
+  width: 3px;
+  margin: 3.15rem;
+  justify-content: space-between;
+  margin-left: 15%;
+}
+
+.circle {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 0px -38px;
+}
+
+.circle p {
+  margin: 10px 27px;
+  color: #000;
+  font-size: 3rem;
+  font-weight: 900;
+  font: bolder;
+}
+
+.first{
+  position: relative;
+  margin-top: -102.1875rem;
+}
+
+.first h2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+}
+
+.first p {
+  flex-direction: column;
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+}
+
+
+.container-second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.second{
+  margin-top: 8rem;
+}
+
+.second h2 {
+  position: absolute;
+  left: 20% ;
+}
+
+.second img {
+  width: 12.5rem;
+  margin-left: 80px;
+}
+
+.second-dois {
+  display: flex;
+  align-items: center;
+  margin-top: 8rem;
+}
+
+.second-dois p {
+  text-align: left;
+  max-width: 31.125rem;
+  margin: 0;
+  margin-left: 50px;
+}
+
+
+.container-third{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.third-tres{
+  display: flex;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.third{
+  margin-top: 4rem;
+}
+
+.third h2{
+  position: absolute;
+  left: 20%;
+}
+
+.third p{
+  text-align: left;
+  max-width: 31.125rem;
+  margin: 0;
+  margin-left: 50px;
+}
+
+.third img{
+  width: 12.5rem;
+  height: auto;
+  margin-left: 80px;
+}
+
+
+/* Parte do Universo */
+
+.universo h1{
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+}
+
+.slider {
+  position: relative;
+  overflow: hidden;
+  margin-top: 6rem;
+  max-width: 100%;
+}
+
+.slider-container {
+  display: flex;
+  transition: transform 0.5s ease;
+  align-items: center;
+  position: absolute;
+  top: 35%;
+  left: 2%;
+  transform: translate(-50%, -50%);
+}
+
+.slider-controls {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.prev-button,
+.next-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 0 25px;
+}
+
+.prev-button img,
+.next-button img {
+  width: 2.25rem;
+  height: 2.25rem;
+}
+
+.slider {
+  background-image: url("../Img/fundo.svg");
+  height: 110vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.univers {
+  flex: 0 0 calc(93.7% / 3);
+  transition:  0.5s ease;
+  background-color: #616690;
+  width: 13rem;
+  height: 17.1875rem;
+  margin-inline: 1rem;
+  border-radius: 20px;
+}
+
+/* CSS genérico para as classes univers, satel, galax, plan, exo, negro */
+.univers h2,
+.satel h2,
+.galax h2,
+.plan h2,
+.exo h2,
+.negro h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.univers p,
+.satel p,
+.galax p,
+.plan p,
+.exo p,
+.negro p {
+  font-size: 14px;
+  margin-left: 10.5rem;
+  margin-right: 1.25rem;
+  width: 14.0625rem;
+  position: absolute;
+  top: 45%;
+  /* Use margem para posicionar o texto conforme necessário */
+}
+
+.image img {
+  width: 7.5rem;
+  height: auto;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 30%;
+}
+
+@media(min-width:1600px){
+  .universo h1{
+    font-size: 6rem;
+    top: 25%;
+  }
+  
+  .slider-container {
+    top: 42%;
+  }
+  
+  .slider-controls {
+    bottom: 15%;
+  }
+
+}
+
+/* Descobrir Mais */
+
+.descobrir{
+  position: relative;
+  margin-top: 8rem;
+}
+
+.descob h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+}
+
+.texto p{
+  margin-block: 3.125rem;
+  max-width: 60rem;
+  text-align: center;
+}
+
+.texto{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fotos {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.fotos img{
+  width: 18.75rem;
+  height: 18.75rem;
+  border:#fff solid 2px;
+  padding: 5px;
+  border-radius: 1rem;
+  left: 50%;
+  justify-content: center;
+}
+
+/* SOBRE NÓS*/
+
+.sobre_nos {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-block: 4rem;
+}
+
+.apresentacao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textos h1 {
+  font-size: 5rem; 
+  margin-block: 2rem;
+  position: relative;
+}
+
+.textos h1::before {
+  content: '';
+  display: block;
+  width: 8.125rem;
+  height: 6.25rem;
+  background: url('../Img/detalhe_sobre.svg') no-repeat center;
+  position: absolute;
+  left: 13.3rem;  
+  top: 6rem;
+  width: 13rem;
+  height: 7rem;
+  z-index: -1;
+}
+
+.textos p {
+  width: 40rem;
+}
+
+.img_sobre {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.img_sobre img {
+  width: 20rem;
+}
+
+.missao {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  align-items: center; 
+}
+
+.missao p {
+  width: 60rem;
+}

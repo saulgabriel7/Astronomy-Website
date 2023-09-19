@@ -1,0 +1,97 @@
+/* Login POP-UP */
+
+.login-content{
+    box-sizing: border-box;
+    position: relative;
+    width: 25rem;
+    height: 28.125rem;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), radial-gradient(50% 50% at 97.29% 100%, rgba(8, 61, 193, 0.8) 0.8%, rgba(7, 64, 204, 0.8) 0.02%, rgba(0, 0, 0, 0.5) 100%) , radial-gradient(50% 50% at 0% 0%, rgba(8, 61, 193, 0.7) 1.56%, rgba(9, 56, 174, 0.7) 23.96%, rgba(0, 0, 0, 0.8) 100%);
+    border: 3px solid #1D5AF3;
+    
+}
+
+.login-content img{
+    width: 120px;
+}
+
+.login-content button{
+    width: 7.5rem;
+    height: 2.8125rem;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #1D5AF3;
+    cursor: pointer;
+}
+
+.input-login{
+    margin-block: 2.1875rem;
+}
+
+#email{
+    background-color: #262A35;
+    color: #fff;
+    border: none;
+    padding: 0.625rem;
+    height: 2.8125rem;
+    width: 17.5rem;
+    border-radius: 10px;
+}
+
+#senha{
+    background-color: #262A35;
+    color: #fff;
+    border: none;
+    padding: 0.625rem;
+    height: 2.8125rem;
+    width: 17.5rem;
+    border-radius: 10px;
+}
+
+#popup-login {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 9999;
+}
+
+.login-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #262A35;
+    padding: 1.25rem;
+    border-radius: 5px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.input {
+    margin-bottom: 0.625rem;
+}
+
+#close-login img{
+    position: absolute;
+    width: 2rem;
+    height: auto;
+    cursor: pointer;
+    top: 1.25rem; 
+    right: 1.25rem; 
+}
+
+.login-content p{
+    color: #fff;
+    margin-top: 1.5625rem;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.login-content a{
+    color: #1D5AF3;
+}

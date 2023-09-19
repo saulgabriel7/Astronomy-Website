@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Inter:wght@600&family=Montserrat:wght@900&display=swap');
+
+body{
+    font-family: 'Archivo';
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #000000;
+}
+
+button{
+  width: 150px;
+  height: 50px;
+  background-color: #181B48;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  color: #FFFFFF;
+  border-radius: 50px;
+  font-family: 'Archivo';
+  font-weight: 700;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  font-size: 75px;
+}
+
+li{
+  display: flex;
+  align-items: center;
+  justify-content:center ;
+  width: 300px;
+  height: 35px;
+  border-radius: 15px;
+  background-color: #181B48;
+  right: 50px;
+}
+
+h3{
+  font-size: 32px;
+  margin-left: 275px;
+  text-align: center;
+}
+
+.nav img{
+  margin-left: -380px;
+  width: 5rem;
+}
+

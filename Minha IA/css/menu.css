@@ -1,0 +1,83 @@
+.menu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 18.75rem;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.menu img {
+    width: 5rem;
+    height: auto;
+}
+
+.perguntas p{
+    margin-top: 1rem;
+}
+
+
+.perguntas img{
+    width: 2rem;
+    float: left;
+}
+
+.perguntas h3{
+    font-size: 18px;
+    width: 13.125rem;
+    font-weight: 400;
+    margin-top: 2px;
+    padding-bottom: 1rem;
+}
+
+.sugestao {
+    display: flex;
+    flex-direction: column;
+    width: 14.4375rem;
+    padding-block: 2.1875rem;
+    text-align: left;
+}
+
+.sugestao img{
+    width: 2rem;
+    height: 2rem;
+    float: left;
+}
+
+.sugestao nav {
+    display: flex;
+    margin-left: -3.125rem;
+}
+
+.sugestao nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+.paragrafos img {
+    width: 2rem;
+    height: 2rem;
+    float: left;
+    margin-right: 0.625rem;
+  }
+  
+  .nav img {
+    width: 2rem;
+    height: 2rem;
+    float: left;
+    margin-right: 0.625rem;
+  }
+
+.nav {
+    display: flex;
+    width: 14.4375rem;
+    justify-content: center;
+}
+
+.nav a {
+    font-size: 16px;
+    margin-top: 5px;
+}

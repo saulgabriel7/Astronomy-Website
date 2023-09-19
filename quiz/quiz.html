@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer ></script>
+    <script src="js/load.js" defer></script>
+    <title>Adivinhe a Constelação</title>
+</head>
+<body>
+
+    <div class="planet" id="planet">
+        <!-- Carregamento -->
+        <p>Aguarde...</p>
+    </div>
+
+    <div class="iniciar">
+        <!-- Início do Quiz -->
+        <h2 id='titulo'> Adivinhe a Constelação!</h2>
+        <p class="regras">
+            Para iniciar clique no botão abaixo!
+        </p>
+        <button id="iniciarBtn" onclick="iniciarQuiz()">
+            <span></span>
+            <strong>Iniciar</strong>
+        </button>
+
+        <button id="sairBtn">
+            <a href="../Pagina de Games/games.html">
+                <!--Voltar para pagina principal-->
+                <strong>Sair</strong>
+            </a>
+            
+        </button>
+    </div>
+
+ <!--Conteudo do Quiz-->
+
+    <main class="tela-principal">
+
+        <section class='conteudos'>
+            
+            <article id='aviso' class='centro'>
+                <progress id="progresso" max="100" value="0"></progress>
+            </article>
+                      
+
+            <article class='questoes'>
+                <header class='questao'>
+                    <h1 id='pergunta'></h1>
+                </header>
+
+                <figure class='imagemDaQuestao'>
+                    <img src="" alt="Imagem">
+                </figure> 
+                                
+                <div class='corpo'>
+                    <ol type='A' id='alternativas'>
+                        <li id='a' value='1A' class='respostas' onClick='verificarSeAcertou(this, this)'></li>
+                        <li id='b' value='1B' class='respostas' onClick='verificarSeAcertou(this, this)'></li>
+                        <li id='c' value='1C' class='respostas' onClick='verificarSeAcertou(this, this)'></li>
+                        <li id='d' value='1D' class='respostas' onClick='verificarSeAcertou(this, this)'></li>
+                    </ol>
+                </div>
+            </article>
+              
+        </section>
+
+    </main>
+
+    <div id="finalizacao" class="centrou">
+        <h2>Quiz Concluído!</h2>
+        <p>Você acertou <span id="pontuacao"></span> questões de um total de <span id="totalQuestoes"></span>.</p>
+        <button id="reiniciar" onclick="reiniciarQuiz()">Reiniciar</button>
+        <button>
+            <a href="../Pagina de Games/games.html">Sair</a>
+        </button>
+    </div>
+    
+
+</body>
+</html>

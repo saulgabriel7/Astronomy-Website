@@ -1,0 +1,39 @@
+header {
+    background: #081535;
+    display: flex;
+    justify-content: space-between;
+    height: 6.25rem;
+    align-items: center;
+    padding-inline: 2rem;
+}
+
+
+.logo img {
+    width: 5rem;
+    height: auto;
+}
+
+.menu_header a {
+    padding-inline: 2rem;
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Cabin', sans-serif;
+}
+
+.perfil {
+    display: flex;
+    padding-inline: 1.5rem;
+    background: #fff;
+    border: none;
+    color: #272F5D;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.img_perfil {
+    width: 2rem;
+}

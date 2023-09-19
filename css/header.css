@@ -1,0 +1,99 @@
+header {
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 120vh;
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.nav button{
+  width: 5.625rem;
+  height: 1.5625rem;
+  background-color: #272F5D;
+  border: 0.125rem solid #ffffff;
+  border-radius: 1.5625rem;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logo img{
+    width: 5rem;
+    margin-top: -0.4375rem;
+    margin-left: 0.625rem;
+}
+
+.nav{
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    margin-inline: 0.9375rem;
+}
+
+.nav li{
+    margin-inline: 1.5625rem;
+    margin-top: -3.125rem;
+    font-weight: 900;
+}
+
+.nav button{
+    margin-top: -3.25rem;
+    margin-right:0.9375rem;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1rem;
+    
+}
+
+.nav  button:hover{
+    background-color: #ffffff;
+    color: #272F5D;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: calc(100vh - 77px);
+  gap: 8rem;
+}
+
+.titulo h1{
+    font-size: 5rem;
+    text-align: center;
+    display: flex;
+    margin-top: 6.25rem;
+    justify-content: center;
+}
+
+.seta img{
+  width: 1.5rem;
+}
+
+.seta {
+  position: relative;
+  left: 50%;
+  width: 3.125rem;
+  height: 3.125rem;
+  border: 0.125rem  solid #fff;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: setaMovement 2s ease-in-out infinite;
+}
+
+@keyframes setaMovement {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
